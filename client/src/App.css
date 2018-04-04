@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.content {
+  margin: 10px auto;
+}
+
+.card {
+  margin: 20px 0;
+  text-align: left;
+  padding: 1em;
+}
+
+.card-body {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.news-info {
+  display: flex;
+}
+
+.author {
+  display: flex;
+  margin-right: 10px;
+}
+
+.author-font {
+  margin: 0;
+  line-height: 24px;
+  color: #3061f3 !important;
+}
+
+.news-info-font {
+  margin-right: 5px;
+  color: #737373;
+  font-weight: 400;
+}
+
+nav{
+  display: flex !important;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+}
+
+.input-search {
+  margin-right: 5px;
+}
+.search-content {
+  margin-top: 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
