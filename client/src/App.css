@@ -18,8 +18,23 @@
   font-size: 1.5em;
 }
 
+.row{
+  margin: 0;
+}
+
 .App-intro {
   font-size: large;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1em;
+  color: #222
+}
+
+.card-title:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 .content {

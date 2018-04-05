@@ -5,6 +5,8 @@ import Home from './components/Home.jsx'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {connect} from 'react-redux'
 import ErrorPage from './components/ErrorPage.jsx'
+import { bindActionCreators } from 'redux'
+import {insertingData, changingPage} from './redux/news/action'
 
 
 class App extends Component {

@@ -1,0 +1,7 @@
+export const INSERT_DATA = 'INSERT_DATA'
+export const INSERT_DATA_LOADING = 'INSERT_DATA_LOADING'
+export const INSERT_DATA_ERROR = 'INSERT_DATA_ERROR'
+export const SEARCH_DATA = 'SEARCH_DATA'
+export const changePage = 'CHANGE_PAGE'
+export const SELECT_CATEGORY = 'SELECT_CATEGORY'
+export const INPUT_KEY = 'INPUT_KEY'
